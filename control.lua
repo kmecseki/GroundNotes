@@ -140,5 +140,8 @@ script.on_event(defines.events.on_gui_click, place_note)
 
 script.on_init(initialize)
 
+-- Add conf change. some sort of reinitalization?
+-- gui cleanup on start
+-- add colors
 
 
