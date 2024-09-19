@@ -22,10 +22,9 @@ data:extend({
     },
     {
         type = "shortcut",
-        name = "hk-add-msg",
+        name = "hk-add-msg-sc",
         order = "a[add]-m[msg]",
         action = "lua",
-        --item_to_spawn = 'add-message-here',
         style = 'red',
         associated_control_input = "hk-add-msg",
         localised_name = {"shortcuts.add-msg"},
